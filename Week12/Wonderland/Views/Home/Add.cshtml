@@ -1,0 +1,9 @@
+﻿<h1>@ViewBag.PageName</h1>
+
+<form method="post" action="/Home/SaveNew">
+    Title: <input type="text" name="title" value="@ViewBag.title" /><br />
+    Content:<br />
+    <textarea name="paragraphs">@ViewBag.paragraphs</textarea><br />
+    <input type="hidden" name="id" value="@ViewBag.id" />
+    <input type="submit" value="@ViewBag.PageName" />
+</form>

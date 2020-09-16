@@ -1,0 +1,22 @@
+﻿@model List<Blog1>
+@{
+    ViewData["Title"] = "Test";
+}
+
+<b style="color:red">@ViewBag.Message</b>
+<form method="GET" action="/Home/Test">
+    Search:
+    <input type="text" name="search" />
+    <input type="submit" value="Go" />
+</form>
+
+<h1>Test</h1>
+
+<ul>
+    @foreach (Blog1 blog in Model)
+    {
+    <li><a href="/home/blog?id=@blog.id">@blog.title</a>   <a href="/home/edit?id=@blog.id">Edit</a>   </li>
+    }
+</ul>
+
+<a href="/Home/Add">Add New Blog</a>
