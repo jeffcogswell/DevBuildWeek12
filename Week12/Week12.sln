@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperConsoleJ1", "DapperCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperConsole", "DapperConsole\DapperConsole.csproj", "{7DA4C659-6608-4423-9712-E3DDDB667E79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackOverload", "SlackOverload\SlackOverload.csproj", "{5F53756D-58C2-42E8-83CE-ABEA7743022B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7DA4C659-6608-4423-9712-E3DDDB667E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DA4C659-6608-4423-9712-E3DDDB667E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DA4C659-6608-4423-9712-E3DDDB667E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F53756D-58C2-42E8-83CE-ABEA7743022B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F53756D-58C2-42E8-83CE-ABEA7743022B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F53756D-58C2-42E8-83CE-ABEA7743022B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F53756D-58C2-42E8-83CE-ABEA7743022B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
